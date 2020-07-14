@@ -18,12 +18,11 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.4rem;
+    font-size: 14px;
     text-align: center;
-    margin-top: -5rem;
+    margin-top: -50px;
     animation: vso-fadein .75s;
     font-weight: 400;
-    font-size: 10px;
     overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: white;
@@ -36,7 +35,7 @@
 }
 
 .vso-splash-screen__message {
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 @keyframes vso-fadein {
@@ -320,8 +319,8 @@
     display: inline-block;
     color: white;
     background: #0278D5;
-    padding: .5rem 1.3rem .7rem;
-    border-radius: .2rem;
+    padding: 5px 13px 7px;
+    border-radius: 2px;
     text-decoration: none;
     font-weight: bold;
 }
