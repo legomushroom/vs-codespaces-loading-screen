@@ -21,17 +21,16 @@
     font-size: 14px;
     text-align: center;
     margin-top: -50px;
-    animation: vso-fadein .75s;
-    font-weight: 400;
     overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color: white;
     letter-spacing: .25px;
+    color: #222;
+    font-weight: 500;
+    animation: vso-fadein .75s;
 }
 
-.vso-splash-screen__block--light-theme {
-  color: #222;
-  font-weight: 500;
+.is-dark-theme .vso-splash-screen__block {
+    color: white;
 }
 
 .vso-splash-screen__message {
@@ -58,7 +57,7 @@
     border-right: 1px solid #DDE0E4;
 }
 
-.vso-splash-screen .is-vs-codespaces .sidebar {
+.vso-splash-screen .is-dark-theme .sidebar {
     background: rgb(51, 51, 51);
     border-right: 1px solid #181818;
 }
@@ -72,7 +71,7 @@
     background: white;
 }
 
-.vso-splash-screen .is-vs-codespaces {
+.vso-splash-screen .is-dark-theme {
     background: rgb(30, 30, 30);
 }
 
@@ -92,7 +91,7 @@
     border-right: 1px solid #DDE0E4;
 }
 
-.vso-splash-screen .is-vs-codespaces .tree {
+.vso-splash-screen .is-dark-theme .tree {
     background: #252526;
     border-right: 1px solid #181818;
 }
@@ -109,7 +108,7 @@
     border-right: 1px solid #DDE0E4;
 }
 
-.vso-splash-screen .is-vs-codespaces .code {
+.vso-splash-screen .is-dark-theme .code {
     background: rgb(30, 30, 30);
     border-right: 1px solid #181818;
 }
@@ -121,7 +120,7 @@
     padding: 0;
 }
 
-.vso-splash-screen .is-vs-codespaces .tabs-code{
+.vso-splash-screen .is-dark-theme .tabs-code{
     background: rgb(30, 30, 30);
     border-right: 1px solid #181818;
 }
@@ -140,11 +139,11 @@
     left: 0px;
 }
 
-.vso-splash-screen .is-vs-codespaces .lines:before {
+.vso-splash-screen .is-dark-theme .lines:before {
     background: linear-gradient(to bottom, rgba(244,247,249,0), rgba(37,37,38,1));
 }
   
-.vso-splash-screen .is-vs-codespaces .code .lines:before {
+.vso-splash-screen .is-dark-theme .code .lines:before {
     background: linear-gradient(to bottom,  rgb(30, 30, 30,0), rgba(30,30,30,1));
 }
 
@@ -165,7 +164,7 @@
     animation: shimmer 2s infinite;
 }
 
-.vso-splash-screen .is-vs-codespaces .line {
+.vso-splash-screen .is-dark-theme .line {
     background: linear-gradient(to right, #5a5a5a 40%, #868686 50%, #5a5a5a 60%);
     background-size: 1000px 100%;
 }
@@ -185,7 +184,7 @@
     animation-delay: 0.25s
 }
 
-.vso-splash-screen .is-vs-codespaces .code .line {
+.vso-splash-screen .is-dark-theme .code .line {
     background: linear-gradient(to right, #464545 40%, #7d7d7d 50%, #464545 60%);
     background-size: 1000px 100%;
 }
@@ -200,7 +199,7 @@
     left: 16px;
 }
 
-.vso-splash-screen .is-vs-codespaces .code li:before {
+.vso-splash-screen .is-dark-theme .code li:before {
     background: rgb(30, 30, 30);
 }
 
@@ -215,7 +214,7 @@
   
 .vso-splash-screen .tabs li { padding: 0 14px; }
  
-.vso-splash-screen .is-vs-codespaces .tab1 {
+.vso-splash-screen .is-dark-theme .tab1 {
     background: rgb(30, 30, 30);
 }
 
@@ -225,7 +224,7 @@
     animation-delay: 0.25s
 }
 
-.vso-splash-screen .is-vs-codespaces .tab1 .line {
+.vso-splash-screen .is-dark-theme .tab1 .line {
     background: linear-gradient(to right, #404040 40%, #757575 50%, #404040 60%);
     background-size: 1000px 100%;
 }
@@ -241,7 +240,7 @@
     border-bottom: 1px solid #DDE0E4;
 }
 
-.vso-splash-screen .is-vs-codespaces .tab2 {
+.vso-splash-screen .is-dark-theme .tab2 {
     background: rgb(37, 37, 38);
     border-left: 1px solid #272727;
     border-bottom: 1px solid #272727;
@@ -258,7 +257,7 @@
     border-top: 1px solid #DCE0E5;
 }
 
-.vso-splash-screen .is-vs-codespaces .bottom {
+.vso-splash-screen .is-dark-theme .bottom {
     background: rgb(0, 122, 204);
     border-top: #181818;
 }
@@ -267,7 +266,7 @@
     background: white;
 }
 
-.vso-splash-screen .is-vs-codespaces .connection-stack {
+.vso-splash-screen .is-dark-theme .connection-stack {
     background: rgb(30, 30, 30);
 }
 
@@ -275,7 +274,7 @@
     color: black;
 }
 
-.vso-splash-screen .is-vs-codespaces .text-color {
+.vso-splash-screen .is-dark-theme .text-color {
     color: #cccccc;
 }
 
