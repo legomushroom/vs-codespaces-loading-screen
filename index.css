@@ -4,7 +4,6 @@
 
 .vso-splash-screen .container {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  letter-spacing: 0.25px;
   color: #222;
   font-weight: 500;
 }
@@ -372,6 +371,12 @@
 
 .is-dark-theme .vso-splash-screen__steps {
   background: var(--vscode-editor-background, rgb(30, 30, 30));
+}
+
+.vso-splash-screen h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 
 .is-dark-theme h4 {
