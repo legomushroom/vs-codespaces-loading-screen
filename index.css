@@ -389,6 +389,7 @@
   border: 1px solid var(--vscode-panel-border, #dde0e4);
   padding: 14px 0 0;
   margin-top: 14px;
+  position: relative;
 }
 
 .is-dark-theme .vso-splash-screen__steps li {
@@ -400,6 +401,12 @@
   display: flex;
   margin-bottom: 14px;
   padding-left: 14px;
+}
+
+.vso-splash-screen__steps li .vso-splash-screen__button {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .vso-splash-screen__step-header .title {
