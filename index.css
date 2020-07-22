@@ -387,7 +387,7 @@
 .vso-splash-screen__steps li {
   background: var(--vscode-panel-background, #fafbfd);
   border: 1px solid var(--vscode-panel-border, #dde0e4);
-  padding: 14px 0 0;
+  padding: 0;
   margin-top: 14px;
   position: relative;
 }
@@ -397,22 +397,27 @@
   border: 1px solid var(--vscode-panel-border, #444444);
 }
 
+.vso-splash-screen__steps li .vscs-icon {
+  align-self:  center;
+}
+
 .vso-splash-screen__step-header {
   display: flex;
   padding-left: 14px;
 }
 
 .vso-splash-screen__steps li .vso-splash-screen__button {
-  float: right;
-  margin: 10px;
-  margin-bottom: 0;
+  align-self: center;
+  margin: 0;
+  margin-right: 6px;
+  flex-grow: 0;
 }
 
 .vso-splash-screen__step-header .title {
   font-weight: 500;
   flex-grow: 1;
   padding-left: 10px;
-  margin: 14px 4px;
+  margin: 11px 0 13px;
 }
 
 .is-dark-theme .vso-splash-screen__step-header .title {
