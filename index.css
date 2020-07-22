@@ -399,20 +399,20 @@
 
 .vso-splash-screen__step-header {
   display: flex;
-  margin-bottom: 14px;
   padding-left: 14px;
 }
 
 .vso-splash-screen__steps li .vso-splash-screen__button {
   float: right;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 10px;
+  margin-bottom: 0;
 }
 
 .vso-splash-screen__step-header .title {
   font-weight: 500;
   flex-grow: 1;
   padding-left: 10px;
+  margin: 14px 4px;
 }
 
 .is-dark-theme .vso-splash-screen__step-header .title {
